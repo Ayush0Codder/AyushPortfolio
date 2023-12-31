@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush - Developer Protfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@300&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            text-decoration: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 236);
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.3px;
+            margin: 39px 84px;
+        }
+
+        .left {
+            font-size: 1.7rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 120px 0;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+            margin: 30px 0;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background: #000121;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            align-items: center;
+
+        }
+
+        .firstsection div {
+            width: 30%;
+        }
+
+        .rightsection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        .textgrey {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .verticle {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+
+        }
+
+        .image-top {
+            width: 28px;
+            position: relative;
+            top: -38px;
+            left: -18px;
+            ;
+        }
+
+        .verticle-title {
+            width: 23px;
+            position: relative;
+            top: 69px;
+            left: 0px;
+            font-size: 16px;
+
+        }
+
+        .verticle-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 10px;
+        }
+
+        .footer {
+            background-color: #0e0e1a;
+            height: 233px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px;
+
+        }
+       
+
+        @media screen and (max-width: 1500px) {}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Ayush's Protfolio</div>
+            <div class="right">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+   
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple"> Ayush</span>
+                and i am a passionate
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="developer.webp" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="textgrey"> What i have doone so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="verticle">
+                    <img class="image-top" src="images-removebg-preview.png" alt="">
+                    <div class="verticle-title">
+                        HTML Developer - Pintrest(2010-2012)
+                    </div>
+                    <div class="verticle-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate inventore nihil illum eveniet
+                        vitae harum aliquid quia cupiditate vel similique?
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="fb_icon_325x325-removebg-preview.png" alt="">
+                    <div class="verticle-title">
+                        Node.js Developer - Facebook(2012-2014)
+                    </div>
+                    <div class="verticle-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate inventore nihil illum eveniet
+                        vitae harum aliquid quia cupiditate vel similique?
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="insta-removebg-preview.png" alt="">
+                    <div class="verticle-title">
+                        HTML Developer - Instagram(2014-2016)
+                    </div>
+                    <div class="verticle-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate inventore nihil illum eveniet
+                        vitae harum aliquid quia cupiditate vel similique?
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="Logo_of_Twitter.svg-removebg-preview.png" alt="">
+                    <div class="verticle-title">
+                        HTML Developer - Twitter (2016-2017)
+                    </div>
+                    <div class="verticle-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate inventore nihil illum eveniet
+                        vitae harum aliquid quia cupiditate vel similique?
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="ytn-removebg-preview.png" alt="">
+                    <div class="verticle-title">
+                        Software Developer - YouTube (2017-2023)
+                    </div>
+                    <div class="verticle-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate inventore nihil illum eveniet
+                        vitae harum aliquid quia cupiditate vel similique?
+                    </div>
+
+                </div>
+                <div class="verticle"></div>
+                <div class="verticle"></div>
+
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Ayush's Developer Portfolio</h3>
+            </div>
+            <div class="footer-secand">
+                <ul>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            www.ayushportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Graphic Designer', 'Web Designer', 'Video Editor.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
